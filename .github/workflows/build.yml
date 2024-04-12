@@ -41,7 +41,7 @@ jobs:
           version: 'latest'
 
       - name: Build app
-        run: trunk build --release
+        run: trunk build --release --public-url /yew-horoscope
  
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
