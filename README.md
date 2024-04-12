@@ -6,10 +6,6 @@ A joke app to test the absolute basics of the [yew](https://yew.rs) framework.
 
 You can test the app by visiting the GitHub Pages.
 
-```
-# TODO actually deploy to GH pages via Action
-```
-
 ## Development
 
 ### Requirements
