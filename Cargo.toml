@@ -1,0 +1,14 @@
+[package]
+name = "yew-horoscope"
+version = "0.1.0"
+edition = "2021"
+description = "Super simple yew test web app"
+readme = "README.md"
+repository = "https://github.com/Data5tream/yew-horoscope"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+yew = { version="0.20", features=["csr"] }
+wasm-bindgen = "0.2"
+web-sys = { version="0.3", features=["EventTarget", "HtmlSelectElement"] }
