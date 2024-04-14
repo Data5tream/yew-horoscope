@@ -38,9 +38,18 @@ button, select {
   border: 4px solid var(--c-text);
   padding: 0.5rem 2rem;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 button {
   margin-top: 2rem;
+
+  &.reset-button {
+    border: 0;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
 }
+
 

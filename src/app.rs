@@ -88,11 +88,20 @@ pub fn app() -> Html {
         })
     };
 
+    let on_reset_click = {
+        let show_result = show_result.clone();
+
+        Callback::from(move |_| {
+            show_result.set(false);
+        })
+    };
+
     html! {
         <main>
             {app_title}
             if *show_result {
                 <ResultDisplay result={&*selected_zodiac} />
+                <button class="reset-button" onclick={on_reset_click}>{"Again?"}</button>
             } else {
                 <p>{"Select your zodiac"}</p>
                 <CalendarInput {on_input_change} />
