@@ -4,7 +4,7 @@ A joke app to test the absolute basics of the [yew](https://yew.rs) framework.
 
 ## Production
 
-You can test the app by visiting the GitHub Pages.
+You can test the app by visiting the [GitHub Pages](https://data5tream.github.io/yew-horoscope/).
 
 ## Development
 
@@ -23,13 +23,13 @@ cargo install --locked trunk
 
 To run the app with the default `trunk` config, which is serving at `127.0.0.1:8080`, use:
 
-```shell
+```shelL
 trunk serve
 ```
 
 ### Building for production
 
-This builds the compiled result to the dist `dist/`.
+This builds the app to the `dist/` folder.
 
 ```shell
 trunk build --release
